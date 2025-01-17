@@ -1,0 +1,79 @@
+.xcaret{
+    background: purple;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.imagen{
+    background: rgb(253, 251, 251);
+    width: 25%;
+    float: left;
+}
+.information{
+    background: white;
+    width: 50%;
+    float: left;
+}
+.aside{
+    background: red;
+    width: 25%;
+    float: left;
+
+    
+}
+
+.cuadro {
+    width: 90%; /* Ajusta el ancho del contenedor según el diseño */
+    max-width: 400px; /* Tamaño máximo opcional para limitar el crecimiento */
+    height: auto; /* Altura automática para mantener la relación de aspecto */
+    overflow: hidden; /* Oculta cualquier desbordamiento de la imagen */
+    margin-left: 5%;
+}
+
+.cuadro img {
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: 100%; /* La imagen ocupa el 100% de la altura del contenedor */
+    object-fit: cover; /* Ajusta la imagen para cubrir todo el espacio del contenedor */
+    border-radius: 8px; /* Esquinas redondeadas opcionales */
+}
+.lista{
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 5%;
+}
+.lista table{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    font-size: medium;
+    font-style: italic;
+    color: rgb(1, 1, 2);
+}
+.imagen table tr td{
+    padding: 10px 0px;
+    text-align: left;
+
+    
+}
+.information blockquote {
+    text-align: center;
+    max-width: 500px; /* Ancho máximo para las líneas de texto */
+    margin: 0 auto; /* Centra el bloque de texto horizontalmente */
+    line-height: 1.6; /* Espaciado entre líneas para mejor legibilidad */
+}
+.comentario{
+    width: 90%;
+    background: rgb(86, 207, 147);
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+/* formato de texto del texto principal*/
+.texto{
+    text-align: justify;
+    
+}
+

@@ -1,0 +1,242 @@
+.principal{
+    width: 100%;
+    height: 1000px;
+    background: whitesmoke;
+  }
+  
+  .photo {
+    background-image: url('./img/desk.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra toda la sección */
+    background-position: center; /* Centra la imagen */
+    height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+    width: 100%; /* Ocupa el 100% del ancho */
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+  
+  .titulo-container {
+    background-color: rgba(83, 142, 219, 0.581); /* Color de fondo blanco */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 40px; /* Espaciado interno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
+  }
+  
+  .titulo {
+    color: rgb(248, 248, 248); /* Cambia el color del texto según tu diseño */
+    font-size: 3rem; /* Ajusta el tamaño de la fuente según tus necesidades */
+    text-align: center; /* Centra el texto */
+    margin: 0; /* Elimina el margen por defecto del h1 */
+  }
+  
+  /* tarjetas*/
+  .consejos {
+    display: flex; /* Usamos flexbox para alinear las tarjetas */
+    justify-content: space-around; /* Espacio entre las tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan en caso de que no haya suficiente espacio */
+    padding: 20px; /* Espaciado alrededor de la sección */
+  }
+  
+  .tarjeta {
+    background-color: white; /* Fondo blanco para las tarjetas */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+    width: 30%; /* Ancho de las tarjetas (ajusta según sea necesario) */
+    margin: 10px; /* Margen entre las tarjetas */
+    text-align: center; /* Centra el texto dentro de la tarjeta */
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+  }
+  
+  .imagen {
+    width: 100%; /* La imagen ocupa el 100% del ancho de la tarjeta */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+  }
+  
+  .titulo-tarjeta {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem; /* Tamaño del título */
+    margin: 10px 0; /* Margen arriba y abajo del título */
+    color: #ffad54;
+  }
+  
+  .descripcion {
+    font-size: 1rem; /* Tamaño del texto descriptivo */
+    color: #555; /* Color del texto descriptivo */
+  }
+  
+  
+  /*TESTIMONIOS*/
+  
+  .testimonios {
+    width: 100%;
+    background: rgb(161, 255, 111);
+    text-align: center;
+  }
+  
+  .tarjetaUnoTestimonios {
+    width: 80%;
+    background: rgb(161, 255, 111);
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  .testimonioIMG{
+    width: 30%;
+    height: auto;
+    float: left;
+    padding-top: 100px;
+  }
+  .tituloDescripcion{
+    font-size: 2rem;
+    color: rgb(233, 186, 19);
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .information {
+    margin-top: 100px;
+    margin-left: 100px;
+    background: #ffad54;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  
+  /*TARJETA DE TESTIMONIOS DOS*/
+  .tarjetaUnoTestimoniosDos {
+    width: 80%;
+    background: rgb(161, 255, 111);
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  
+  .testimonioIMGdos{
+    width: 30%;
+    height: auto;
+    float: right;
+    padding-top: 100px;
+  }
+  .informationDos{
+    margin-top: 100px;
+    width: 50%;
+    margin-left: 10%;
+    background: #f79f41;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  .tituloDescripcionDos{
+    font-size: 2rem;
+    color: rgb(247, 247, 247);
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+  
+  
+  
+  
+  /* Contenedor principal */
+  .contenedor {
+    max-width: 100%; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Espaciado interno */
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(199, 204, 149, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilo de la sección de contacto */
+  .contacto {
+    text-align: center; /* Centrar texto */
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  /* Título del formulario */
+  .titulo-formulario {
+    margin-bottom: 20px; /* Espaciado inferior */
+    font-size: 24px; /* Tamaño de fuente */
+    color: #c34343; /* Color del texto */
+  }
+  
+  /* Estilo del formulario */
+  .formulario {
+    display: flex; /* Usar flexbox */
+    flex-direction: column; /* Colocar elementos en columna */
+  }
+  
+  /* Agrupar campos de nombre y correo */
+  .campo-group {
+    display: flex; /* Usar flexbox para alinear horizontalmente */
+    justify-content: space-between; /* Espacio entre los campos */
+  }
+  
+  /* Estilo de cada campo */
+  .campo {
+    margin-bottom: 15px; /* Espaciado inferior */
+    flex: 1; /* Permitir que los campos ocupen el mismo espacio */
+    margin-right: 10px; /* Espaciado derecho */
+  }
+  
+  /* Evitar margen derecho en el último campo */
+  .campo:last-child {
+    margin-right: 0; /* Sin margen derecho en el último campo */
+  }
+  
+  /* Estilo de las etiquetas */
+  .campo label {
+    margin-bottom: 5px; /* Espaciado inferior */
+    font-weight: bold; /* Negrita */
+    color: #555; /* Color del texto */
+  }
+  
+  /* Estilo de los inputs y textarea */
+  .campo input,
+  .campo textarea {
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    width: 100%; /* Ancho completo */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: border-color 0.3s; /* Transición suave para el borde */
+  }
+  
+  /* Cambiar el borde al enfocar */
+  .campo input:focus,
+  .campo textarea:focus {
+    border-color: #007bff; /* Color del borde al enfocar */
+    outline: none; /* Quitar el contorno por defecto */
+  }
+  
+  /* Estilo del botón */
+  button {
+    padding: 10px; /* Espaciado interno */
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+  }
+  
+  /* Cambiar el fondo del botón al pasar el mouse */
+  button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+  }
+  
+  /* Estilo del textarea */
+  .campo textarea {
+    resize: vertical; /* Permitir redimensionar verticalmente */
+    min-height: 100px; /* Altura mínima */
+  }
+
+
+
+
+  /*CONTIENE REGISTER*/
+
+  
